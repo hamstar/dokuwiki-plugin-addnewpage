@@ -1,10 +1,8 @@
 <?php
-/*USE : UTF8*/
 
-/*
- * English language file
+/**
+ * @license    GPL 2 (http://www.gnu.org/licenses/gpl.html)
+ * 
+ * @author Mirko <malisan.mirko@gmail.com>
  */
-$lang['addpage_exclude']         = "excluded namespace (separated with ;)";
-$lang['addpage_showroot'] 		 = "Show root namespace";
-$lang['addpage_hide'] 		 = "when you use {{NEWPAGE>[ns]}} syntax : Hide namespace selection  (unchecked : show only subnamespace)";
-?>
+$lang['addpage_hideACL']       = 'Nascondi {{NEWPAGE}} se l\'utente non &egrave autorizzato ad aggiungere pagine(mostra il messaggio se non &egrave selezionato)';
